@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center">
-      <div className="p-5 shadow-lg rounded w-96">
+      <div className="p-5 shadow-lg flex flex-col items-center justify-center rounded w-96">
         <div className="text-center font-bold mb-2">Random Quote Generator</div>
         <div className="bg-gray-200 p-5 text-center rounded text-xl transition duration-500 ">
           <p>{quote}</p>
